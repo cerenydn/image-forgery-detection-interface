@@ -4,5 +4,5 @@ services:
       python:
         version: 3.11.9
     buildCommand: poetry install
-    startCommand: python /opt/render/project/src/appp.py
+    startCommand: python appp.py  # Ana dizinde olduğu için sadece dosya adı yeterli olabilir
     port: 5000
