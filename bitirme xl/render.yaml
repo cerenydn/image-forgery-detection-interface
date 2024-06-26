@@ -3,5 +3,6 @@ services:
     env:
       python:
         version: 3.11.9
-    buildCommand: python appp.py
+    buildCommand: poetry install
+    startCommand: python /opt/render/project/src/appp.py
     port: 5000
