@@ -1,8 +1,5 @@
 services:
   - name: web
-    env:
-      python:
-        version: 3.11.9
-    buildCommand: poetry install
-    startCommand: python appp.py  # Ana dizinde olduğu için sadece dosya adı yeterli olabilir
+    env: python
+    startCommand: python appp.py
     port: 5000
